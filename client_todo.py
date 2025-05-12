@@ -49,7 +49,7 @@ def menu():
             result = send_command(command)
             print(result)
         elif choice == "4":
-            print("Completed items")
+            print("Incompleted items")
             #index = int(input("Enter index: "))
             #todo_list.complete_item(index)
             command = f"4-"
